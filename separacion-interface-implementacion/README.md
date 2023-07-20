@@ -1,0 +1,5 @@
+# separacion-interface-implementacion
+
+En este ejemplo, la interfaz IAnimal define el método Speak(). Las clases Dog y Cat implementan la interfaz IAnimal, y cada clase proporciona su propia implementación del método Speak(). La clase MainClass crea un objeto Perro y un objeto Gato y luego llama al método Speak() en cada objeto. El método Speak() del objeto Perro devuelve la cadena "¡Guau!", y el método Speak() del objeto Gato devuelve la cadena "¡Miau!".
+
+Este ejemplo muestra cómo separar la interfaz de la implementación en C#. La interfaz IAnimal define el contrato para el método Speak(), pero las clases Dog y Cat proporcionan las implementaciones del método Speak(). Esto nos permite desacoplar la interfaz de la implementación, lo que hace que nuestro código sea más flexible y reutilizable.
